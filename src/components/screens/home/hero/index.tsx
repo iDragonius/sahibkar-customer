@@ -29,8 +29,8 @@ const Hero: FC<HeroProps> = ({ data }) => {
           }}
           loop={true}
           autoplay={{
-            delay: 5000,
-            disableOnInteraction: true,
+            delay: 4000,
+            disableOnInteraction: false,
           }}
         >
           {data.map((el, i) => (
