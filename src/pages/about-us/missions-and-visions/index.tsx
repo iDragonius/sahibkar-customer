@@ -25,9 +25,7 @@ const MissionsAndVisionsPage: FC<MissionsAndVisionsPageProps> = ({ data }) => {
         <title>{t("missions_and_visions_page")}</title>
       </Head>
       <main className={"box  mb-20"}>
-        <h2
-          className={"text-28 font-medium mt-12  hidden sm:block text-heading"}
-        >
+        <h2 className={"text-40 font-semibold mt-7 sm:mt-16 mb-7 text-hero"}>
           {t("missions_and_visions_page")}
         </h2>
         <Sections

@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { SpecialistItemProps } from "@/interfaces/specialists.interface";
 import Image from "next/image";
 import { ServerUrl } from "@/constants/server-url";
+import Link from "next/link";
 
 export interface ItemProps {
   data: SpecialistItemProps;
@@ -9,7 +10,7 @@ export interface ItemProps {
 
 const Item: FC<ItemProps> = ({ data }) => {
   return (
-    <div>
+    <Link href={`/specialists/${data.id}`}>
       <Image
         src={ServerUrl + data.attributes.image.data.attributes.url}
         alt={data.attributes.image.data.attributes.name}
@@ -23,7 +24,7 @@ const Item: FC<ItemProps> = ({ data }) => {
       <p className={"mt-1 text-[#575757] text-16 sm:text-18 font-thin"}>
         {data.attributes.position}
       </p>
-    </div>
+    </Link>
   );
 };
 

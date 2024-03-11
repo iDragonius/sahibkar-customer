@@ -31,7 +31,7 @@ const AcademyPage: FC<AcademyPageProps> = ({ data }) => {
         <title>{t("academy_page")}</title>
       </Head>
       <main className={"box mb-20"}>
-        <h2 className={"text-28 font-medium mt-7 sm:mt-16 mb-7 text-heading"}>
+        <h2 className={"text-40 font-semibold mt-7 sm:mt-16 mb-7 text-hero "}>
           {t("academy_title")}
         </h2>
         <div className={"px-10  bg-[#EAF4FF] rounded-[16px] pb-10"}>

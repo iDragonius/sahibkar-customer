@@ -6,6 +6,7 @@ export interface SpecialistItemProps {
     fullName: string;
     image: ImageProps;
     position: string;
+    description: string;
   };
 }
 

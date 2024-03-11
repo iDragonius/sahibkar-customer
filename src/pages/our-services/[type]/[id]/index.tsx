@@ -46,7 +46,7 @@ const ServicePage: FC<ServicePageProps> = ({ data }) => {
       >
         <div className={" min-[1100px]:w-[520px] min-[1100px]:mb-20"}>
           <div className={"flex items-center justify-between gap-3"}>
-            <h2 className={" text-[22px] font-medium text-heading"}>
+            <h2 className={" text-40 font-semibold text-hero"}>
               {data.training.data.attributes.name}
             </h2>
             {data.training.data.attributes.price && (

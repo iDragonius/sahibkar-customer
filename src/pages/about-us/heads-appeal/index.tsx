@@ -32,9 +32,7 @@ const HeadsAppealPage: FC<HeadsAppealPageProps> = ({ data }) => {
         <title>{t("heads_appeal_page")}</title>
       </Head>
       <main className={"box  mb-20"}>
-        <h2
-          className={"text-24 min-[400px]:text-28 font-medium my-8 nb:my-12 "}
-        >
+        <h2 className={"text-40 font-semibold mt-7 sm:mt-16 mb-7 text-hero"}>
           {" "}
           {t("heads_appeal_page")}
         </h2>

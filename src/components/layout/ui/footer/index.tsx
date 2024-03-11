@@ -20,8 +20,8 @@ const Footer: FC<FooterProps> = ({ contact, socialLink }) => {
           }
         >
           <div className={"text-white"}>
-            <Image src={whiteLogo} alt={"logo"} />
-            <p className={"min-[700px]:w-[300px]  mt-4"}>
+            <Image src={whiteLogo} alt={"logo"} className={"-ml-8"} />
+            <p className={"min-[700px]:w-[300px]  text-14 font-medium mt-4"}>
               Fəaliyyətimizi sosial media hesablarından da izləyə bilərsiniz.
             </p>
             <div className={"flex gap-4 mt-4"}>
@@ -61,8 +61,8 @@ const Footer: FC<FooterProps> = ({ contact, socialLink }) => {
                 "flex flex-col gap-8 min-[700px]:mt-0 mt-10 text-white"
               }
             >
-              <Link href={"/"}>Ana səhifə</Link>
               <Link href={"/media-center/news"}>Xəbərlər</Link>
+              <Link href={"/media-center/kiv"}>Media mərkəzi</Link>
               <Link href={"/specialists"}>Mütəxəssislər</Link>
             </div>
           </div>

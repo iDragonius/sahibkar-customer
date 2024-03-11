@@ -29,7 +29,7 @@ const NavigationItem: FC<NavigationItemProps> = ({ data }) => {
                 scrollPosition === 0 && pathname === "/"
                   ? "text-white"
                   : "text-black",
-                "text-18 font-medium",
+                "text-16 font-medium",
               )}
             >
               {data.label}
@@ -53,7 +53,7 @@ const NavigationItem: FC<NavigationItemProps> = ({ data }) => {
             scrollPosition === 0 && pathname === "/"
               ? "text-white"
               : "text-black",
-            "text-18 font-medium",
+            "text-16 font-medium",
           )}
         >
           {data.label}
