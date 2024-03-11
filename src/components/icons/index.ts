@@ -1,0 +1,10 @@
+export { default as EllipseIcon } from "./hero-ellipse.svg";
+export { default as DropdownIcon } from "./dropdown.svg";
+export { default as DownloadIcon } from "./download.svg";
+export { default as EmailIcon } from "./email.svg";
+export { default as AddressIcon } from "./address.svg";
+export { default as PhoneIcon } from "./phone.svg";
+export { default as VideoIcon } from "./video-icon.svg";
+export { default as BurgerMenu } from "./menu-burger.svg";
+export { default as Cross } from "./cross.svg";
+export { default as PrevArrowIcon } from "./prev-arrow.svg";

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box {
+    @apply  px-5  min-[900px]:px-10 mb:w-[1240px] mb:mx-auto
+}
+.trans {
+    @apply transition-all ease-in-out;
+}
