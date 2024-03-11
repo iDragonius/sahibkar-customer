@@ -45,6 +45,14 @@ export interface AnnouncementItemProps {
     };
   };
 }
+
+export interface HeroCarouselProps {
+  title: string;
+  description: string;
+  link: string;
+  image: ImageProps;
+}
+
 export interface HomeResponse {
   homePage: {
     data: {
@@ -57,10 +65,7 @@ export interface HomeResponse {
         videoBannerTitle: string;
         videoBannerUrl: string;
         videoBannerThumbnail: ImageProps;
-        heroTitle: string;
-        heroDescription: string;
-        heroLink: string;
-        heroImage: ImageProps;
+        hero: HeroCarouselProps[];
         trainings: {
           data: TrainingItemProps[];
         };

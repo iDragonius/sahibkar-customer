@@ -67,17 +67,19 @@ const GET_HOME = gql`
               }
             }
           }
-          heroTitle
-          heroDescription
-          heroLink
-          heroImage {
-            data {
-              id
-              attributes {
-                url
-                width
-                height
-                name
+          hero {
+            link
+            title
+            description
+            image {
+              data {
+                id
+                attributes {
+                  url
+                  width
+                  height
+                  name
+                }
               }
             }
           }

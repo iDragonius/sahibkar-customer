@@ -9,3 +9,27 @@
 .trans {
     @apply transition-all ease-in-out;
 }
+
+
+.swiper-pagination {
+    bottom: 20px !important;
+    text-align: left !important;
+}
+
+.swiper-pagination-bullet {
+    width: 48px !important;
+    height: 6px !important;
+    background:#D9D9D9 !important;
+    opacity: 49% !important;
+    border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 48px !important;
+    height: 6px !important;
+    transition: width 0.5s !important;
+        opacity: 1 !important;
+    background: #D9D9D9 !important;
+    border-radius: 0 !important;
+
+}

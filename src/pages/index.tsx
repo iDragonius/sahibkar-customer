@@ -34,12 +34,7 @@ const HomePage: FC<HomePageProps> = ({ data }) => {
         <title>Sahibkar Akademiyası</title>
       </Head>
       <main className={" mb-20"}>
-        <Hero
-          title={data.homePage.data.attributes.heroTitle}
-          description={data.homePage.data.attributes.heroDescription}
-          link={data.homePage.data.attributes.heroLink}
-          image={data.homePage.data.attributes.heroImage}
-        />
+        <Hero data={data.homePage.data.attributes.hero} />
         <div className={"flex sm:flex-col flex-col-reverse sm:mt-10"}>
           <div className={"box"}>
             <h2 className={"mb-10 text-20 "}>
