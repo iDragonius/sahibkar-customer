@@ -68,17 +68,19 @@ const Hero: FC<HeroProps> = ({ data }) => {
                     Ətraflı
                   </Link>
                 </div>
-                <div>
-                  <Image
-                    src={ServerUrl + el.image.data.attributes.url}
-                    alt={"image"}
-                    width={709}
-                    height={659}
-                    className={
-                      "min-[1000px]:block hidden h-[590px] object-cover   "
-                    }
-                  />
-                </div>
+                {el.image.data && (
+                  <div>
+                    <Image
+                      src={ServerUrl + el.image.data.attributes.url}
+                      alt={"image"}
+                      width={709}
+                      height={659}
+                      className={
+                        "min-[1000px]:block hidden h-[590px] object-cover   "
+                      }
+                    />
+                  </div>
+                )}
               </div>
             </SwiperSlide>
           ))}
