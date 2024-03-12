@@ -13,7 +13,7 @@ export interface FooterProps {
 const Footer: FC<FooterProps> = ({ contact, socialLink }) => {
   return (
     <>
-      <div className={"py-5 min-[700px]:py-20 bg-[#00779F]"}>
+      <div className={"py-5 min-[700px]:py-20 bg-hero"}>
         <div
           className={
             "box flex justify-between min-[700px]:flex-row flex-col flex-wrap gap-8"

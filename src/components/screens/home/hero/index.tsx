@@ -18,7 +18,7 @@ export interface HeroProps {
 
 const Hero: FC<HeroProps> = ({ data }) => {
   return (
-    <div className={"bg-[#00779F] w-full min-[1000px]:h-[590px] "}>
+    <div className={"bg-hero w-full min-[1000px]:h-[590px] "}>
       <div className={"box  relative  "}>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
@@ -62,7 +62,7 @@ const Hero: FC<HeroProps> = ({ data }) => {
                   <Link
                     href={el.link}
                     className={
-                      "  leading-6 bg-secondary w-max text-black px-10 py-3 trans hover:ring-4 hover:ring-secondary hover:ring-opacity-70"
+                      "  text-hero leading-6bg-opacity-70 w-max bg-white  px-10 py-3 trans hover:ring-4 hover:ring-white hover:ring-opacity-70"
                     }
                   >
                     Ətraflı

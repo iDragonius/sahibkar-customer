@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        secondary: "#FFAE64",
-        hero: "#00779F",
-        hover: "#27759C",
-        heading: "#FF922E",
+        secondary: "#0449b1",
+        hero: "#0449b1",
+        hover: "#0449b1",
+        heading: "#0449b1",
         heading2: "#17D45B",
       },
       fontSize: {

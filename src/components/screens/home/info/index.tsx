@@ -9,7 +9,7 @@ const Info: FC<InfoProps> = ({ data }) => {
   return (
     <div
       className={
-        "flex min-[1000px]:flex-row flex-col px-10 py-7 bg-[#0E5F87] justify-between items-center sm:rounded-[24px]"
+        "flex min-[1000px]:flex-row flex-col px-10 py-7 bg-hero justify-between items-center sm:rounded-[24px]"
       }
     >
       {data.map((info, i) => (
