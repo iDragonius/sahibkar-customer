@@ -69,13 +69,13 @@ const Footer: FC<FooterProps> = ({ contact, socialLink }) => {
         </div>
       </div>
       <div
-        className={"py-[10px] bg-[#044961]  flex items-center justify-center "}
+        className={"py-[10px] bg-[#043682]  flex items-center justify-center "}
       >
         <p className={"font-medium text-white "}>
           Bu bir{" "}
           <Link
             href={"https://knexel.com"}
-            className={"text-heading  leading-6 underline"}
+            className={"text-white  leading-6 underline"}
           >
             Knexel
           </Link>{" "}
